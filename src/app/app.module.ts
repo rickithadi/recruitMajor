@@ -24,9 +24,10 @@ import {
 import { FormComponent } from "./form/form.component";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {AngularEditorModule} from '@kolkov/angular-editor';
+import { DraftComponent } from './draft/draft.component';
 
 @NgModule({
-  declarations: [AppComponent, FormComponent],
+  declarations: [AppComponent, FormComponent, DraftComponent],
   imports: [
     BrowserModule,
     BrowserModule,
