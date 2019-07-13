@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ParaGeneratorService } from './para-generator.service';
 
 @Component({
   selector: 'app-root',

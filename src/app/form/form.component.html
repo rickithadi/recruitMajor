@@ -1,0 +1,120 @@
+<!-- <mat&#45;grid&#45;tile colspan="px2"> -->
+
+  <!-- </mat&#45;grid&#45;tile> -->
+
+  <!-- <mat&#45;grid&#45;tile> -->
+ <!-- ====================================================  -->
+<div class="container" style="background-color:#d3d3d3">
+<!-- <mat&#45;grid&#45;tile colspan="2"> -->
+<div class="row">
+<div class="col-md-4">
+
+ <!-- <div fxFlex="151"  fxLayoutGap="10"> -->
+    <mat-card>
+      <h1>Basic Info</h1>
+      <form #heroForm="ngForm">
+        <!-- {{diagnostic}} -->
+        <p>
+          <mat-form-field>
+            <input
+              matInput
+              placeholder="nric"
+              type="text"
+              id="nric"
+              [(ngModel)]="model.nric"
+              name="nric"
+            />
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label> Vocation</mat-label>
+            <mat-select name="vocationS" [(ngModel)]="model.vocation">
+              <mat-option *ngFor="let voc of vocations" [value]="voc">
+                {{ voc.viewValue }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </p>
+        <p>
+          <mat-form-field>
+            <input
+              matInput
+              placeholder="rank"
+              type="text"
+              id="rank"
+              [(ngModel)]="model.rank"
+              name="rank"
+            />
+          </mat-form-field>
+
+          <mat-form-field>
+            <input
+              matInput
+              placeholder="name"
+              type="text"
+              id="name"
+              [(ngModel)]="model.name"
+              name="name"
+            />
+          </mat-form-field>
+          <mat-form-field>
+            <input
+              matInput
+              placeholder="length of service"
+              type="text"
+              id="length"
+              [(ngModel)]="model.length"
+              name="length"
+            />
+          </mat-form-field>
+        </p>
+        <mat-form-field appearance="outline">
+          <textarea
+            matInput
+            placeholder="accreditation"
+            type="text"
+            id="accreditation"
+            [(ngModel)]="model.accreditation"
+            name="accreditation"
+          ></textarea>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <textarea
+            matInput
+            placeholder="milestone"
+            type="text"
+            id="milestone"
+            [(ngModel)]="model.milestone"
+            name="milestone"
+          ></textarea>
+        </mat-form-field>
+      </form>
+    </mat-card>
+
+    <mat-card>
+      <h1>Appraisal</h1>
+      <!-- {{diagnosticA}} -->
+      <span style="color:grey"> Performance: </span>
+      <p>
+        <mat-radio-group [(ngModel)]="appraisal.performance">
+          <mat-radio-button value="1">1</mat-radio-button>
+          <mat-radio-button value="2">2</mat-radio-button>
+          <mat-radio-button value="3">3</mat-radio-button>
+          <mat-radio-button value="4">4</mat-radio-button>
+          <mat-radio-button value="5">5</mat-radio-button>
+        </mat-radio-group>
+      </p>
+      <span style="color:grey"> Conduct: </span>
+      <p>
+        <mat-radio-group [(ngModel)]="appraisal.conduct">
+          <mat-radio-button value="1">1</mat-radio-button>
+          <mat-radio-button value="2">2</mat-radio-button>
+          <mat-radio-button value="3">3</mat-radio-button>
+          <mat-radio-button value="4">4</mat-radio-button>
+          <mat-radio-button value="5">5</mat-radio-button>
+        </mat-radio-group>
+      </p>
+    </mat-card>
+  <!-- <app&#45;draft [hero]="model" [appraisal]="appraisal"></app&#45;draft> -->
+ </div>
+ </div>
+ </div>
