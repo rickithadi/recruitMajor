@@ -45,10 +45,10 @@ export class DraftComponent implements OnInit {
     console.log(hero.name);
     this.draft = this.p
       .genFirst(hero, this.localCount)
-      .replace("SERVICEMAN", hero.name);
-    // .replace("RANK", hero.rank);
-    console.log("swapprd", this.swapped);
-    // this.cd.detectChanges();
+      .replace("RANK", hero.rank)
+		  .replace("SERVICEMAN", hero.name);
+    this.swapped = this.draft.replace("RANK", hero.rank);
+    console.log("swapped", this.swapped);
   }
   refresh(hero) {
     this.localCount = this.localCount + 1;
