@@ -21,7 +21,7 @@ export class ParaGeneratorService {
     return this.cert.para1;
   }
   firstPara(vocation, name, nric) {
-    this.hold = "soldier name is " + name + " nric is " + nric + " and";
+	  this.hold = "soldier's name is " + name + ".His nric is " + nric + " and";
     if (vocation.comd) {
       this.hold = this.hold.concat(" fella is a comd");
     } else {

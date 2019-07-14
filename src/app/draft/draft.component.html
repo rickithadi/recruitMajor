@@ -1,20 +1,57 @@
 <div class="container">
   <!-- <br /> -->
   <br />
-  {{ draft }}
-  {{ hero|json }}
+  {{ hero | json }}
 
   <div class="col-md-12 ; mx-auto">
-    <mat-card>
-      <angular-editor
-        [config]="editorConfig"
-        [ngModel]="draft"
-        (change)="onChange($event)"
-      ></angular-editor>
-      <!-- <app&#45;ngx&#45;editor -->
-      <!--   [placeholder]="'Enter text here...'" -->
-      <!--   [(ngModel)]="draft" -->
-      <!-- ></app&#45;ngx&#45;editor> -->
-    </mat-card>
+    <div class="row">
+      <div *ngIf="edit; else elseBlock">
+        <div class="col-md-10  ">
+          <mat-card>
+            <angular-editor
+              [config]="editorConfig"
+              [ngModel]="draft"
+            ></angular-editor>
+          </mat-card>
+        </div>
+        <div class="col-md-2  ">
+          <mat-card>
+            <div class="row; text-center ">
+              <div class="col-md-12;mx-auto  ">
+                <button mat-button>
+                  <mat-icon (click)="this.editT()">edit</mat-icon>
+                </button>
+                <button mat-button>
+                  <mat-icon (click)="this.editF()">refresh</mat-icon>
+                </button>
+              </div>
+            </div>
+          </mat-card>
+        </div>
+      </div>
+
+      <ng-template #elseBlock>
+        <div class="col-md-10  ">
+          <mat-card>
+            {{ draft }}
+          </mat-card>
+        </div>
+
+        <div class="col-md-2  ">
+          <mat-card>
+            <div class="row; text-center ">
+              <div class="col-md-12;mx-auto  ">
+                <button mat-button>
+                  <mat-icon (click)="this.editT()">edit</mat-icon>
+                </button>
+                <button mat-button>
+                  <mat-icon  (click)="this.editF()">refresh</mat-icon>
+                </button>
+              </div>
+            </div>
+          </mat-card>
+        </div>
+      </ng-template>
+    </div>
   </div>
 </div>

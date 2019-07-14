@@ -7,6 +7,9 @@ import { NgxEditorModule } from "ngx-editor";
 import { FormsModule } from "@angular/forms";
 import { HttpClientModule } from "@angular/common/http";
 
+
+
+import {MatIconModule} from '@angular/material/icon';
 import { MatRadioModule } from "@angular/material/radio";
 
 import { MatGridListModule } from "@angular/material/grid-list";
@@ -32,6 +35,7 @@ import { DraftComponent } from './draft/draft.component';
     BrowserModule,
     BrowserModule,
     MatGridListModule,
+MatIconModule,
     AngularEditorModule,
     MatRadioModule,
     HttpClientModule,
