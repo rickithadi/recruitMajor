@@ -1,6 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 
 import { ParaGeneratorService } from "../para-generator.service";
+import { SoldierService } from "../soldier.service";
 import { Hero } from "../hero";
 import { Service } from "../service";
 export interface Vocation {
@@ -15,7 +16,8 @@ export interface Vocation {
   styleUrls: ["./form.component.css"]
 })
 export class FormComponent implements OnInit {
-  constructor(private p: ParaGeneratorService) {
+  message: any;
+  constructor(private p: ParaGeneratorService, private ss: SoldierService) {
     // this.p.genFirst();
   }
   vocations: Vocation[] = [
@@ -31,25 +33,28 @@ export class FormComponent implements OnInit {
 
   submitted = false;
 
-  onSubmit() {
-    this.submitted = true;
-  }
-
   // TODO: Remove this when we're done
   get diagnostic() {
     return JSON.stringify(this.model);
   }
-get diagnosticA() {
+  get diagnosticA() {
     return JSON.stringify(this.appraisal);
   }
   //////// NOT SHOWN IN DOCS ////////
 
   // Reveal in html:
   //   Name via form.controls = {{showFormControls(heroForm)}}
-  showFormControls(form: any) {
-    return form && form.controls['name'] && form.controls['name'].value; // Dr. IQ
+  ngOnInit() {
+    this.ss.currentMessage.subscribe(message => (this.message = message));
+    console.log(this.message);
   }
-
-
-  ngOnInit() {}
+  newMessage(model) {
+    console.log(model);
+    this.ss.changeMessage(model);
+  }
+  onSubmit(model) {
+    console.log("sub",model);
+    this.ss.changeMessage(model);
+  this.model = new Hero("", "", "", "", "");
+  }
 }

@@ -15,7 +15,7 @@ export class DraftComponent implements OnInit {
   @Input() appraisal: Service;
   edit: boolean = false;
   @Input() hero: Hero;
-  private _hero;
+  private _hero: Hero;
   set hero(hero: Hero) {
     this._hero = hero;
   }
@@ -24,7 +24,6 @@ export class DraftComponent implements OnInit {
     return this._hero;
   }
   draft: string = "";
-  swapped: string = "";
   localCount: number = 0;
   editorConfig: AngularEditorConfig = {
     editable: true,
@@ -35,23 +34,25 @@ export class DraftComponent implements OnInit {
     translate: "no"
     // uploadUrl: 'v1/images', // if needed
   };
-  constructor(private p: ParaGeneratorService, private cd: ChangeDetectorRef) {}
+  constructor(private p: ParaGeneratorService, private cd: ChangeDetectorRef) {
+    // this.hero(_hero);
+  }
 
   ngAfterContentChecked() {
     this.cd.detectChanges();
   }
 
   tf(hero) {
-    console.log(hero.name);
     this.draft = this.p
       .genFirst(hero, this.localCount)
       .replace("RANK", hero.rank)
-		  .replace("SERVICEMAN", hero.name);
-    this.swapped = this.draft.replace("RANK", hero.rank);
-    console.log("swapped", this.swapped);
+      .replace("SERVICEMAN", hero.name);
   }
   refresh(hero) {
     this.localCount = this.localCount + 1;
+    if (this.localCount == 8) {
+      this.localCount = 0;
+    }
     //might have to recall
   }
 

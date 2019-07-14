@@ -7,7 +7,7 @@ import { Certificate } from "./certificate";
 })
 export class ParaGeneratorService {
   constructor() {
-    console.log(enlistee);
+    // console.log(enlistee);
   }
   hold: string;
   cert = new Certificate("", "", "", "", "");
@@ -21,10 +21,10 @@ export class ParaGeneratorService {
       soldier.nric,
       count
     );
-    console.log(this.cert);
+    console.log("cert is", this.cert);
     return this.cert.para1;
   }
-  firstPara(rank,vocation, name, nric, count?) {
+  firstPara(rank, vocation, name, nric, count?) {
     this.hold =
       "soldier's name is " +
       name +
@@ -44,5 +44,4 @@ export class ParaGeneratorService {
     return this.hold;
   }
   swapAdj(para, options) {}
-
 }
