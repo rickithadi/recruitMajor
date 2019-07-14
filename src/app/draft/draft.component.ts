@@ -46,7 +46,7 @@ export class DraftComponent implements OnInit {
     console.log(this.draft);
   }
   editT() {
-    this.edit = true;
+    this.edit = !this.edit;
   }
   editF() {
     this.edit = false;

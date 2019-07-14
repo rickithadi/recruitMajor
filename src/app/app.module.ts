@@ -1,4 +1,7 @@
 import { BrowserModule } from "@angular/platform-browser";
+
+
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import { NgModule } from "@angular/core";
 
 import { AppRoutingModule } from "./app-routing.module";
@@ -43,7 +46,7 @@ MatIconModule,
     FormsModule,
     MatInputModule,
     MatCheckboxModule,
-    MatSelectModule,
+ MatButtonToggleModule,   MatSelectModule,
     NgxEditorModule,
     MatOptionModule,
     MatCardModule,

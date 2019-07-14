@@ -14,21 +14,19 @@
             ></angular-editor>
           </mat-card>
         </div>
+     </div>
         <div class="col-md-2  ">
           <mat-card>
             <div class="row; text-center ">
-              <div class="col-md-12;mx-auto  ">
-                <button mat-button>
-                  <mat-icon (click)="this.editT()">edit</mat-icon>
-                </button>
-                <button mat-button>
-                  <mat-icon (click)="this.editF()">refresh</mat-icon>
-                </button>
-              </div>
+              <mat-button-toggle>
+                <mat-icon (click)="this.editT()">edit</mat-icon>
+              </mat-button-toggle>
+              <button mat-button>
+                <mat-icon (click)="this.editF()">refresh</mat-icon>
+              </button>
             </div>
           </mat-card>
         </div>
-      </div>
 
       <ng-template #elseBlock>
         <div class="col-md-10  ">
@@ -37,20 +35,20 @@
           </mat-card>
         </div>
 
-        <div class="col-md-2  ">
-          <mat-card>
-            <div class="row; text-center ">
-              <div class="col-md-12;mx-auto  ">
-                <button mat-button>
-                  <mat-icon (click)="this.editT()">edit</mat-icon>
-                </button>
-                <button mat-button>
-                  <mat-icon  (click)="this.editF()">refresh</mat-icon>
-                </button>
-              </div>
-            </div>
-          </mat-card>
-        </div>
+        <!--   <div class="col&#45;md&#45;2  "> -->
+        <!--     <mat&#45;card> -->
+        <!--       <div class="row; text&#45;center "> -->
+        <!--         <div class="col&#45;md&#45;12;mx&#45;auto  "> -->
+        <!--           <mat&#45;button&#45;toggle> -->
+        <!--             <mat&#45;icon (click)="this.editT()">edit</mat&#45;icon> -->
+        <!--           </mat&#45;button&#45;toggle> -->
+        <!--           <button mat&#45;button> -->
+        <!--             <mat&#45;icon (click)="this.editF()">refresh</mat&#45;icon> -->
+        <!--           </button> -->
+        <!--         </div> -->
+        <!--       </div> -->
+        <!--     </mat&#45;card> -->
+        <!--   </div> -->
       </ng-template>
     </div>
   </div>
