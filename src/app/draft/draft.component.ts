@@ -14,7 +14,8 @@ import { Service } from "../service";
 })
 export class DraftComponent implements OnInit {
   edit: boolean = false;
-  draft: string = "";
+  draft: any;
+  swapped: string = "";
   localCount: number = 0;
   editorConfig: AngularEditorConfig = {
     editable: true,
@@ -23,7 +24,6 @@ export class DraftComponent implements OnInit {
     minHeight: "",
     placeholder: "Enter text here...",
     translate: "no"
-    // uploadUrl: 'v1/images', // if needed
   };
   hero: Hero;
   app: Service;
@@ -41,7 +41,7 @@ export class DraftComponent implements OnInit {
 
   tf(hero) {
     this.draft = this.p
-      .genFirst(hero, this.localCount)
+      .generate(hero, this.localCount)
       .replace("RANK", hero.rank)
       .replace("SERVICEMAN", hero.name);
   }
@@ -50,7 +50,7 @@ export class DraftComponent implements OnInit {
     if (this.localCount == 8) {
       this.localCount = 0;
     } else {
-      this.draft = this.p.genFirst(this.hero, this.localCount);
+      this.draft = this.p.generate(this.hero, this.localCount);
     }
   }
   editT() {
@@ -59,6 +59,21 @@ export class DraftComponent implements OnInit {
   ngOnInit() {
     this.ss.currentMessage.subscribe(hero => (this.hero = hero));
     this.ss.currentApp.subscribe(app => (this.app = app));
-    this.draft = this.p.genFirst(this.hero, this.localCount);
+    this.draft = this.p.generate(this.hero, this.localCount);
+    this.swapped = this.swap(this.draft.key, this.draft.text, this.draft.rep);
+  }
+  swap(keywords, text, replacement) {
+    let res = "";
+	  let word=replacement[0]
+	  console.log(word)
+    // for (let i = 0; i < keywords.length; i++) {
+    //   res = text.replace(keywords[i], this.hero.replacement[i]);
+    // }
+    // return res;
+	//   do{
+      // res = text.replace(keywords[i], this.hero.replacement[i]);
+      //
+	//   }
+	//   while()
   }
 }

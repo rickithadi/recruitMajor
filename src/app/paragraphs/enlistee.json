@@ -1,11 +1,12 @@
 {
   "para1": {
     "keywords": ["SERVICEMAN", "RANK"],
+    "replacement": ["name", "rank"],
     "paras": [
       {
         "_id": "5d2ac25c4bdf5a198d7ff21b",
         "index": 0,
-        "text": "RANK SERVICEMAN aliqua reprehenderit et pariatur excepteur dolor officia dolore deserunt non esse veniam officia voluptate proident officia nisi do deserunt veniam"
+        "text": "RANK SERVICEMAN aliqua reprehenderit et pariatur excepteur dolor officia dolore deserunt non esse veniam officia voluptate proident rank nisi do deserunt veniam"
       },
       {
         "_id": "5d2ac25ce826f39ae4692939",

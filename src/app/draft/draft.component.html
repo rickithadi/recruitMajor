@@ -33,7 +33,9 @@
       <ng-template #elseBlock>
         <div class="col-md-10  ">
           <mat-card>
-		  draft <h1> {{draft}}</h1>
+            draft
+            <h1>{{ draft.text }}</h1>
+            <h1>{{ swapped }}</h1>
             {{ hero | json }}
             {{ app | json }}
           </mat-card>
