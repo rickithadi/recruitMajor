@@ -10,7 +10,7 @@
           <mat-card>
             <angular-editor
               [config]="editorConfig"
-              [ngModel]="model"
+              [ngModel]="draft"
             ></angular-editor>
           </mat-card>
         </div>
@@ -33,6 +33,7 @@
       <ng-template #elseBlock>
         <div class="col-md-10  ">
           <mat-card>
+		  draft <h1> {{draft}}</h1>
             {{ hero | json }}
             {{ app | json }}
           </mat-card>

@@ -37,7 +37,7 @@ export class ParaGeneratorService {
       this.hold = this.hold.concat(" fella is a comd");
     } else {
       //add json fetch here use refresh func for variety
-      this.hold = enlistee.para1[count].text;
+      this.hold = enlistee.para1.paras[count].text;
 
       // this.hold = this.swapRank(this.hold, rank);
     }

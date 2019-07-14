@@ -49,8 +49,9 @@ export class DraftComponent implements OnInit {
     this.localCount = this.localCount + 1;
     if (this.localCount == 8) {
       this.localCount = 0;
+    } else {
+      this.draft = this.p.genFirst(this.hero, this.localCount);
     }
-    //might have to recall
   }
   editT() {
     this.edit = !this.edit;
@@ -58,5 +59,6 @@ export class DraftComponent implements OnInit {
   ngOnInit() {
     this.ss.currentMessage.subscribe(hero => (this.hero = hero));
     this.ss.currentApp.subscribe(app => (this.app = app));
+    this.draft = this.p.genFirst(this.hero, this.localCount);
   }
 }
