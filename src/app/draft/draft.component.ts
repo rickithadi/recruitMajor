@@ -1,5 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input } from '@angular/core';
 import {AngularEditorConfig} from '@kolkov/angular-editor';
+import {Hero} from '../hero';
+
+import {Service} from '../service';
 
 @Component({
   selector: 'app-draft',
@@ -7,10 +10,12 @@ import {AngularEditorConfig} from '@kolkov/angular-editor';
   styleUrls: ['./draft.component.css']
 })
 export class DraftComponent implements OnInit {
+  @Input() appraisal: Service;
+  @Input() hero: Hero;
   editorConfig: AngularEditorConfig = {
     editable: true,
     spellcheck: true,
-    height: '25rem',
+    height: '50rem',
     minHeight: '25rem',
     placeholder: 'Enter text here...',
     translate: 'no',

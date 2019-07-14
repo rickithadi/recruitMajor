@@ -1,10 +1,17 @@
 <div class="container">
   <!-- <br /> -->
   <br />
+  {{hero | json}}
+  {{appraisal | json}}
 
   <div class="col-md-12 ; mx-auto">
     <mat-card>
       <angular-editor [config]="editorConfig"></angular-editor>
+<!-- <app&#45;ngx&#45;editor -->
+<!--   [placeholder]="'Enter text here...'" -->
+<!--   [(ngModel)]="draft" -->
+<!-- ></app&#45;ngx&#45;editor> -->
+
     </mat-card>
   </div>
 </div>
