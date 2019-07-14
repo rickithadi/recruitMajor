@@ -10,7 +10,7 @@
     <div class="col-md-12">
       <div class="col-md-8">
         <!-- <div fxFlex="151"  fxLayoutGap="10"> -->
-        {{ diagnostic }}
+        <!-- {{ diagnostic }} -->
         <mat-card>
           <h1>Basic Info</h1>
           <form #heroForm="ngForm">
@@ -120,14 +120,19 @@
               <mat-radio-button value="5">5</mat-radio-button>
             </mat-radio-group>
           </p>
+          <div class="float-right">
+            <button class="btn btn-primary" (click)="onAppraisalSubmit(appraisal)">
+              Submit
+            </button>
+          </div>
         </mat-card>
-        <!-- <app&#45;draft [hero]="model" [appraisal]="appraisal"></app&#45;draft> -->
       </div>
     </div>
     <!--  -->
     <!-- <app&#45;draft [hero]="model" [appraisal]="appraisal"></app&#45;draft> -->
     <!-- <app&#45;draft [hero]="model" [appraisal]="appraisal"></app&#45;draft> -->
-    <!-- <app&#45;draft [hero]="model" [appraisal]="appraisal"></app&#45;draft> -->
-    {{ message | json }}
+    form
+    {{ hero | json }}
+    {{ app | json }}
   </div>
 </div>

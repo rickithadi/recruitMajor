@@ -3,6 +3,7 @@ import { ChangeDetectorRef, AfterContentChecked } from "@angular/core";
 import { AngularEditorConfig } from "@kolkov/angular-editor";
 import { Hero } from "../hero";
 
+import { SoldierService } from "../soldier.service";
 import { ParaGeneratorService } from "../para-generator.service";
 import { Service } from "../service";
 
@@ -12,17 +13,7 @@ import { Service } from "../service";
   styleUrls: ["./draft.component.css"]
 })
 export class DraftComponent implements OnInit {
-  @Input() appraisal: Service;
   edit: boolean = false;
-  @Input() hero: Hero;
-  private _hero: Hero;
-  set hero(hero: Hero) {
-    this._hero = hero;
-  }
-  get hero() {
-    this.tf(this._hero);
-    return this._hero;
-  }
   draft: string = "";
   localCount: number = 0;
   editorConfig: AngularEditorConfig = {
@@ -34,7 +25,13 @@ export class DraftComponent implements OnInit {
     translate: "no"
     // uploadUrl: 'v1/images', // if needed
   };
-  constructor(private p: ParaGeneratorService, private cd: ChangeDetectorRef) {
+  hero: Hero;
+  app: Service;
+  constructor(
+    private p: ParaGeneratorService,
+    private cd: ChangeDetectorRef,
+    private ss: SoldierService
+  ) {
     // this.hero(_hero);
   }
 
@@ -55,10 +52,11 @@ export class DraftComponent implements OnInit {
     }
     //might have to recall
   }
-
   editT() {
     this.edit = !this.edit;
   }
-
-  ngOnInit() {}
+  ngOnInit() {
+    this.ss.currentMessage.subscribe(hero => (this.hero = hero));
+    this.ss.currentApp.subscribe(app => (this.app = app));
+  }
 }

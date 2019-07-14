@@ -16,7 +16,8 @@ export interface Vocation {
   styleUrls: ["./form.component.css"]
 })
 export class FormComponent implements OnInit {
-  message: any;
+  hero: Hero;
+  app: Service;
   constructor(private p: ParaGeneratorService, private ss: SoldierService) {
     // this.p.genFirst();
   }
@@ -29,7 +30,7 @@ export class FormComponent implements OnInit {
   ];
 
   model = new Hero("", "", "", "", "");
-  appraisal = new Service(1, 4);
+  appraisal = new Service(0, 0);
 
   submitted = false;
 
@@ -45,16 +46,17 @@ export class FormComponent implements OnInit {
   // Reveal in html:
   //   Name via form.controls = {{showFormControls(heroForm)}}
   ngOnInit() {
-    this.ss.currentMessage.subscribe(message => (this.message = message));
-    console.log(this.message);
-  }
-  newMessage(model) {
-    console.log(model);
-    this.ss.changeMessage(model);
+    this.ss.currentMessage.subscribe(hero => (this.hero = hero));
+    console.log(this.hero);
+    this.ss.currentApp.subscribe(app => (this.app = app));
+    console.log(this.app);
   }
   onSubmit(model) {
-    console.log("sub",model);
     this.ss.changeMessage(model);
-  this.model = new Hero("", "", "", "", "");
+    this.model = new Hero("", "", "", "", "");
+  }
+  onAppraisalSubmit(app) {
+    this.ss.changeApp(app);
+    this.appraisal = new Service(0, 0);
   }
 }
