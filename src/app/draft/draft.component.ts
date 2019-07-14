@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from "@angular/core";
+import { ChangeDetectorRef, AfterContentChecked } from "@angular/core";
 import { AngularEditorConfig } from "@kolkov/angular-editor";
 import { Hero } from "../hero";
 
@@ -12,9 +13,10 @@ import { Service } from "../service";
 })
 export class DraftComponent implements OnInit {
   @Input() appraisal: Service;
-  @Input() hero: Hero;
   private _hero;
+  @Input() hero: Hero;
   set hero(hero: Hero) {
+    // this.tf(hero);
     this._hero = hero;
     // this.valueChange.emit(this._model);
   }
@@ -22,7 +24,7 @@ export class DraftComponent implements OnInit {
     this.tf(this._hero);
     return this._hero;
   }
-  draft: string;
+  draft: string = "";
 
   editorConfig: AngularEditorConfig = {
     editable: true,
@@ -33,11 +35,17 @@ export class DraftComponent implements OnInit {
     translate: "no"
     // uploadUrl: 'v1/images', // if needed
   };
-  constructor(private p: ParaGeneratorService) {}
+  constructor(private p: ParaGeneratorService, private cd: ChangeDetectorRef) {}
 
+  ngAfterContentChecked() {
+    this.cd.detectChanges();
+  }
   tf(hero) {
-    this.draft = JSON.stringify(hero);
-    this.p.genFirst(hero);
+    // this.draft = JSON.stringify(hero);
+
+    console.log(this.draft);
+    this.draft = this.p.genFirst(hero);
+    console.log(this.draft);
   }
   ngOnInit() {}
 }
