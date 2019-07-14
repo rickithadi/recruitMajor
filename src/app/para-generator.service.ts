@@ -1,32 +1,48 @@
 import { Injectable } from "@angular/core";
 import comd from "./paragraphs/comd.json";
-import enlistee from "./paragraphs/comd.json";
+import enlistee from "./paragraphs/enlistee.json";
 import { Certificate } from "./certificate";
 @Injectable({
   providedIn: "root"
 })
 export class ParaGeneratorService {
-  constructor() {}
+  constructor() {
+    console.log(enlistee);
+  }
   hold: string;
   cert = new Certificate("", "", "", "", "");
+  adjectives = ["smart", "capable"];
 
-  genFirst(soldier) {
-    console.log(soldier);
+  genFirst(soldier, count?) {
     this.cert.para1 = this.firstPara(
+      soldier.rank,
       soldier.vocation,
       soldier.name,
-      soldier.nric
+      soldier.nric,
+      count
     );
     console.log(this.cert);
     return this.cert.para1;
   }
-  firstPara(vocation, name, nric) {
-	  this.hold = "soldier's name is " + name + ".His nric is " + nric + " and";
+  firstPara(rank,vocation, name, nric, count?) {
+    this.hold =
+      "soldier's name is " +
+      name +
+      " .His nric is " +
+      nric +
+      " and count is " +
+      count;
     if (vocation.comd) {
+      //add json fetch here
       this.hold = this.hold.concat(" fella is a comd");
     } else {
-      this.hold = this.hold.concat(" fella is a man");
+      //add json fetch here use refresh func for variety
+      this.hold = enlistee.para1[count].text;
+
+      // this.hold = this.swapRank(this.hold, rank);
     }
     return this.hold;
   }
+  swapAdj(para, options) {}
+
 }

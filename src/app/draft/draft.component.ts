@@ -13,9 +13,9 @@ import { Service } from "../service";
 })
 export class DraftComponent implements OnInit {
   @Input() appraisal: Service;
-  private _hero;
   edit: boolean = false;
   @Input() hero: Hero;
+  private _hero;
   set hero(hero: Hero) {
     this._hero = hero;
   }
@@ -24,6 +24,8 @@ export class DraftComponent implements OnInit {
     return this._hero;
   }
   draft: string = "";
+  swapped: string = "";
+  localCount: number = 0;
   editorConfig: AngularEditorConfig = {
     editable: true,
     spellcheck: true,
@@ -38,18 +40,23 @@ export class DraftComponent implements OnInit {
   ngAfterContentChecked() {
     this.cd.detectChanges();
   }
-  onChange(event) {
-    console.log("event hing", event);
-  }
+
   tf(hero) {
-    this.draft = this.p.genFirst(hero);
-    console.log(this.draft);
+    console.log(hero.name);
+    this.draft = this.p
+      .genFirst(hero, this.localCount)
+      .replace("SERVICEMAN", hero.name);
+    // .replace("RANK", hero.rank);
+    console.log("swapprd", this.swapped);
+    // this.cd.detectChanges();
   }
+  refresh(hero) {
+    this.localCount = this.localCount + 1;
+    //might have to recall
+  }
+
   editT() {
     this.edit = !this.edit;
-  }
-  editF() {
-    this.edit = false;
   }
 
   ngOnInit() {}
