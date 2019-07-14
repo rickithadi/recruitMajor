@@ -5,7 +5,7 @@ import { Injectable } from "@angular/core";
 })
 export class ParaGeneratorService {
   constructor() {}
-  genFirst() {
-    console.log("service works");
+  genFirst(soldier) {
+    console.log("service works", soldier);
   }
 }

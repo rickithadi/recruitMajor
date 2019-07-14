@@ -16,7 +16,7 @@ export interface Vocation {
 })
 export class FormComponent implements OnInit {
   constructor(private p: ParaGeneratorService) {
-    this.p.genFirst();
+    // this.p.genFirst();
   }
   vocations: Vocation[] = [
     { value: "", viewValue: "ASA", comd: false },

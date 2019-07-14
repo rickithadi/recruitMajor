@@ -6,7 +6,12 @@
 
   <div class="col-md-12 ; mx-auto">
     <mat-card>
-      <angular-editor [config]="editorConfig"></angular-editor>
+      <angular-editor [config]="editorConfig"
+	      [ngModel]="draft"
+(change)="onChange($event)"
+
+
+	      ></angular-editor>
 <!-- <app&#45;ngx&#45;editor -->
 <!--   [placeholder]="'Enter text here...'" -->
 <!--   [(ngModel)]="draft" -->
