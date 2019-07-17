@@ -27,25 +27,33 @@
                 />
               </mat-form-field>
               <mat-form-field>
-                <mat-label> Vocation</mat-label>
-                <mat-select name="vocationS" [(ngModel)]="model.vocation">
-                  <mat-option *ngFor="let voc of vocations" [value]="voc">
-                    {{ voc.viewValue }}
+                <mat-label> Appointment</mat-label>
+                <mat-select name="appointments" [(ngModel)]="model.appointment">
+                  <mat-option *ngFor="let app of appointments" [value]="app.value">
+                    {{ app.label }}
                   </mat-option>
                 </mat-select>
               </mat-form-field>
+     <mat-form-field>
+                <mat-label> Company</mat-label>
+                <mat-select name="companies" [(ngModel)]="model.company">
+                  <mat-option *ngFor="let com of companies" [value]="com">
+                    {{ com}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+
             </p>
             <p>
               <mat-form-field>
-                <input
-                  matInput
-                  placeholder="rank"
-                  type="text"
-                  id="rank"
-                  [(ngModel)]="model.rank"
-                  name="rank"
-                />
-              </mat-form-field>
+           <mat-label> Rank</mat-label>
+                <mat-select name="ranks" [(ngModel)]="model.rank">
+                  <mat-option *ngFor="let rank of ranks" [value]="rank">
+                    {{ rank.value}}
+                  </mat-option>
+                </mat-select>
+
+             </mat-form-field>
 
               <mat-form-field>
                 <input
@@ -97,10 +105,11 @@
         </mat-card>
       </div>
       <div class="col-md-4">
-        <mat-card>
+        <mat-card >
+        <!-- <mat&#45;card class="text&#45;center"> -->
           <h1>Appraisal</h1>
           <!-- {{diagnosticA}} -->
-          <span style="color:grey"> Performance: </span>
+          <span style="color:grey"> Conduct: </span>
           <p>
             <mat-radio-group [(ngModel)]="appraisal.performance">
               <mat-radio-button value="1">1</mat-radio-button>
@@ -110,7 +119,40 @@
               <mat-radio-button value="5">5</mat-radio-button>
             </mat-radio-group>
           </p>
-          <span style="color:grey"> Conduct: </span>
+   <span style="color:grey"> Performance: </span>
+          <p>
+            <mat-radio-group [(ngModel)]="appraisal.performance">
+              <mat-radio-button value="1">1</mat-radio-button>
+              <mat-radio-button value="2">2</mat-radio-button>
+              <mat-radio-button value="3">3</mat-radio-button>
+              <mat-radio-button value="4">4</mat-radio-button>
+              <mat-radio-button value="5">5</mat-radio-button>
+            </mat-radio-group>
+          </p>
+   <span style="color:grey"> Conceptual Thinking: </span>
+          <p>
+            <mat-radio-group [(ngModel)]="appraisal.performance">
+              <mat-radio-button value="1">1</mat-radio-button>
+              <mat-radio-button value="2">2</mat-radio-button>
+              <mat-radio-button value="3">3</mat-radio-button>
+              <mat-radio-button value="4">4</mat-radio-button>
+              <mat-radio-button value="5">5</mat-radio-button>
+            </mat-radio-group>
+          </p>
+
+   <span style="color:grey"> Social: </span>
+          <p>
+            <mat-radio-group [(ngModel)]="appraisal.performance">
+              <mat-radio-button value="1">1</mat-radio-button>
+              <mat-radio-button value="2">2</mat-radio-button>
+              <mat-radio-button value="3">3</mat-radio-button>
+              <mat-radio-button value="4">4</mat-radio-button>
+              <mat-radio-button value="5">5</mat-radio-button>
+            </mat-radio-group>
+          </p>
+
+
+          <span style="color:grey"> Mission: </span>
           <p>
             <mat-radio-group [(ngModel)]="appraisal.conduct">
               <mat-radio-button value="1">1</mat-radio-button>
@@ -120,6 +162,28 @@
               <mat-radio-button value="5">5</mat-radio-button>
             </mat-radio-group>
           </p>
+      <span style="color:grey"> Development: </span>
+          <p>
+            <mat-radio-group [(ngModel)]="appraisal.conduct">
+              <mat-radio-button value="1">1</mat-radio-button>
+              <mat-radio-button value="2">2</mat-radio-button>
+              <mat-radio-button value="3">3</mat-radio-button>
+              <mat-radio-button value="4">4</mat-radio-button>
+              <mat-radio-button value="5">5</mat-radio-button>
+            </mat-radio-group>
+          </p>
+       <span style="color:grey"> Self: </span>
+          <p>
+            <mat-radio-group [(ngModel)]="appraisal.conduct">
+              <mat-radio-button value="1">1</mat-radio-button>
+              <mat-radio-button value="2">2</mat-radio-button>
+              <mat-radio-button value="3">3</mat-radio-button>
+              <mat-radio-button value="4">4</mat-radio-button>
+              <mat-radio-button value="5">5</mat-radio-button>
+            </mat-radio-group>
+          </p>
+
+
           <div class="float-right">
             <button class="btn btn-primary" (click)="onAppraisalSubmit(appraisal)">
               Submit

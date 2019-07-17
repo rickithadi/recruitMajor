@@ -18,9 +18,20 @@ export interface Vocation {
 export class FormComponent implements OnInit {
   hero: Hero;
   app: Service;
-  constructor(private p: ParaGeneratorService, private ss: SoldierService) {
-    // this.p.genFirst();
-  }
+  constructor(private p: ParaGeneratorService, private ss: SoldierService) {}
+  appointments = [
+    { value: "Section Commander", label: "SC" },
+    { value: "Admin Specialist	", label: "Admin Specialist" },
+    { value: "Finance specialist", label: "Finance Specialist" },
+    { value: "Logistics specialist", label: "Logistics specialist" },
+    {value: "Operations Room Specialist",  label: "Operations Room Specialist"    },
+    { value: "Commanding Officer's Personal Assistant", label: "COPA" },
+    { value: "Platoon Commander", label: "PC" },
+    { value: "Admin Officer", label: "	AO" },
+    { value: "Company Quartermaster Sergeant", label: "CQMS" },
+    { value: "Storeman", label: "Storeman" },
+    { value: "Admin Support Assistant", label: "ASA" }
+  ];
   vocations: Vocation[] = [
     { value: "", viewValue: "ASA", comd: false },
     { value: "", viewValue: "Log Spec", comd: true },
@@ -29,6 +40,27 @@ export class FormComponent implements OnInit {
     { value: "", viewValue: "Storeman", comd: false }
   ];
 
+  companies = [
+    " Hawk   ",
+    " Jaguar ",
+    " Kestrel",
+    " Leopard",
+    " Mohawk ",
+    " Ninja  ",
+    " Orion  ",
+    " HQ     "
+  ];
+  ranks = [
+    { value: "REC", comd: false },
+    { value: "PTE", comd: false },
+    { value: "CPL", comd: false },
+    { value: "LCP", comd: false },
+    { value: "CFC", comd: false },
+    { value: "3SG", comd: true },
+    { value: "2SG", comd: true },
+    { value: "2LT", comd: true },
+    { value: "LTA", comd: true }
+  ];
   model = new Hero("", "", "", "", "");
   appraisal = new Service(0, 0);
 
