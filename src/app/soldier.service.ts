@@ -8,7 +8,7 @@ import { Hero } from "./hero";
 })
 export class SoldierService {
   model = new Hero("", "", "", "", "");
-  appraisal = new Service(0, 0);
+    appraisal = new Service(0, 0, {}, {}, {}, {}, {});
   private messageSource = new BehaviorSubject(this.model);
   currentMessage = this.messageSource.asObservable();
 

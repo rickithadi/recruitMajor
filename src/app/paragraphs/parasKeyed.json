@@ -1,0 +1,363 @@
+{
+   "Communicating to influence": [
+      {
+         "Label (DO NOT EDIT THIS)": "Social1",
+         "Commanders": "Described as charismatic, creative, and passionate by peers and colleagues alike, his ability as a leader is clear. He is also respected by his peers and soldiers under his command as he is selfless and always puts those under him before himself.",
+         "Support Staff": "Described as charismatic, creative, and passionate by peers and colleagues alike, Soldier was an influential figure in the company. He is respected by his peers  as he is selfless and always puts those around him before himself."
+      }
+   ],
+   "Interpersonal Effectiveness": [
+      {
+         "Label (DO NOT EDIT THIS)": "Social2",
+         "Commanders": "A people-oriented individual, soldier did his best to foster a good working environment and team spirit, always ensuring that his team achieved success. His interpersonal skills and military knowledge made him a valuable asset to his superiors and peers.",
+         "Support Staff": "A people-oriented individual, soldier did his best to foster a good working environment and team spirit, always ensuring that his team achieved success. His interpersonal skills and military knowledge made him a valuable asset to his superiors and peers."
+      }
+   ],
+   "Communicating to influence + Interpersonal Effectiveness": [
+      {
+         "Label (DO NOT EDIT THIS)": "Social3",
+         "Commanders": "A people-oriented individual, soldier has been described as a charismatic, earnest and empathetic figure that those around him look up to. He is a discerning individual who knows when to be strict towards his men, and when to reward them. As a result, he built a very strong rapport with his recruits and gained their respect. He is able work together with his fellow commanders to mould the recruits under their charge into exceptional soldiers who were well-trained, virtuous and selfless.",
+         "Support Staff": "A people-oriented individual, soldier has been described as a charismatic, earnest and empathetic figure that those around him look up to. He was known to always render assistance to his peers when he was able to. He is a discerning individual who knows when to be serious and focus on the task on hand. He is able work together with his fellow peers to meet the logistical requirements of his company’s conducts so that every training objective is met."
+      }
+   ],
+   "": [
+      {
+         "Label (DO NOT EDIT THIS)": "",
+         "Commanders": "",
+         "Support Staff": ""
+      },
+      {
+         "Label (DO NOT EDIT THIS)": "",
+         "Commanders": "",
+         "Support Staff": ""
+      },
+      {
+         "Label (DO NOT EDIT THIS)": "",
+         "Commanders": "",
+         "Support Staff": ""
+      },
+      {
+         "Label (DO NOT EDIT THIS)": "",
+         "Commanders": "",
+         "Support Staff": ""
+      },
+      {
+         "Label (DO NOT EDIT THIS)": "",
+         "Commanders": "",
+         "Support Staff": ""
+      },
+      {
+         "Label (DO NOT EDIT THIS)": "First Paragraph",
+         "Commanders": "",
+         "Support Staff": ""
+      },
+      {
+         "Label (DO NOT EDIT THIS)": "",
+         "Commanders": "",
+         "Support Staff": ""
+      },
+      {
+         "Label (DO NOT EDIT THIS)": "",
+         "Commanders": "",
+         "Support Staff": ""
+      },
+      {
+         "Label (DO NOT EDIT THIS)": "",
+         "Commanders": "",
+         "Support Staff": ""
+      },
+      {
+         "Label (DO NOT EDIT THIS)": "",
+         "Commanders": "",
+         "Support Staff": ""
+      },
+      {
+         "Label (DO NOT EDIT THIS)": "",
+         "Commanders": "",
+         "Support Staff": ""
+      }
+   ],
+   "Planning": [
+      {
+         "Label (DO NOT EDIT THIS)": "Mission1",
+         "Commanders": "Soldier displayed a high level of competency in planning and by effectively overseeing and managing his given tasks. He possessed the foresight to anticipate potential challenges and come up with contingencies to tackle them. He always ensured for a smooth and seamless conduct with his meticulous planning and set realistic yet challenging objectives so that every training conduct was meaningful.",
+         "Support Staff": "Soldier displayed a high level of competency in planning and by effectively overseeing and managing his given tasks. He possessed the foresight to anticipate potential challenges and come up with contingencies to tackle them. He always ensured that his tasks were completed seamlessly so that every training conduct could meet their objectives."
+      }
+   ],
+   "Decision Making": [
+      {
+         "Label (DO NOT EDIT THIS)": "Mission2",
+         "Commanders": "Soldier was a decisive leader who was composed under stressful situations, allowing him to make sound decisions to resolve unexpected challenges that arose, ensuring that conducts flowed smoothly. As a commander, he was responsible for the daily affairs of the recruits of his platoon and his ability to make calculated decisions objectively helped him excel in this.",
+         "Support Staff": "Soldier was a decisive individual who was composed under stressful situations, allowing him to make sound decisions to resolve unexpected challenges that arose, ensuring that conducts flowed smoothly. A cool-headed individual, he can be relied on to get complicated tasks done."
+      }
+   ],
+   "Execution": [
+      {
+         "Label (DO NOT EDIT THIS)": "Mission3",
+         "Commanders": "Soldier displayed a high level of competency in event management by successfully coordinating and executing multiple conducts throughout his service. He excelled at command and control on the ground and was always on his feet, ready to execute contingency plans effectively to resolve unexpected challenges.",
+         "Support Staff": "Soldier displayed a high level of competency in event management by successfully coordinating with external stakeholders to meet the logistical requirements of his company throughout his service. He excelled at communication and was always on his feet, ready to execute contingency plans effectively to resolve unexpected challenges."
+      }
+   ],
+   "Planning + Decision making": [
+      {
+         "Label (DO NOT EDIT THIS)": "Mission4",
+         "Commanders": "Soldier is meticulous and attentive to details in his planning. He ensures that deadlines are adhered to and training objectives are met. He possessed the foresight to anticipate potential challenges and come up with contingencies to tackle them. A skilled planner and decisive leader, soldier’s thought processes considered how the conduct would be facilitated on the ground for effective decision making.",
+         "Support Staff": "Soldier displayed a high level of competency in planning and by effectively overseeing and managing his given tasks. He possessed the foresight to anticipate potential challenges and come up with contingencies to tackle them. He always ensured that his tasks were completed seamlessly so that every training conduct could meet their objectives. Soldier was also a decisive individual who was composed under stressful situations, allowing him to make sound decisions to resolve unexpected challenges that arose, ensuring that conducts flowed smoothly. A cool-headed individual, he can be relied on to get complicated tasks done."
+      }
+   ],
+   "Planning + Execution": [
+      {
+         "Label (DO NOT EDIT THIS)": "Mission5",
+         "Commanders": "Soldier displayed a high level of competency in planning and event management by successfully coordinating and executing multiple conducts throughout his service. He always ensured for a smooth and seamless process with his meticulous planning and set realistic yet challenging objectives so that every training conduct was meaningful. He excelled at command and control on the ground and was always on the alert, ready to execute contingency plans effectively to resolve unexpected challenges.",
+         "Support Staff": "Soldier displayed a high level of competency in planning and by effectively overseeing and managing his given tasks. He possessed the foresight to anticipate potential challenges and come up with contingencies to tackle them. He always ensured that his tasks were completed seamlessly so that every training conduct could meet their objectives. Soldier also displayed a high level of competency in event management by successfully coordinating with external stakeholders to meet the logistical requirements of his company throughout his service. He excelled at communication and was always on his feet, ready to execute contingency plans effectively to resolve unexpected challenges."
+      }
+   ],
+   "Decision Making + Execution": [
+      {
+         "Label (DO NOT EDIT THIS)": "Mission6",
+         "Commanders": "Soldier was a decisive leader who was composed under stressful situations, allowing him to make sound decisions to resolve unexpected challenges that arose, ensuring that conducts flowed smoothly. He excelled at command and control on the ground and was always on his feet, ready to execute contingency plans effectively to resolve unexpected challenges.",
+         "Support Staff": "Soldier displayed a high level of competency in event management by successfully coordinating with external stakeholders to meet the logistical requirements of his company throughout his service. He excelled at communication and was always on his feet, ready to execute contingency plans effectively to resolve unexpected challenges. Soldier also displayed a high level of competency in event management by successfully coordinating with external stakeholders to meet the logistical requirements of his company throughout his service. He excelled at communication and was always on his feet, ready to execute contingency plans effectively to resolve unexpected challenges."
+      }
+   ],
+   "Planning + Decision making + Execution": [
+      {
+         "Label (DO NOT EDIT THIS)": "Mission7",
+         "Commanders": "Soldier is meticulous and attentive to details in his planning. He ensures that deadlines are adhered to and training objectives are met. He possessed the foresight to anticipate potential challenges and come up with contingencies to tackle them. Moreover, he was able operate under pressure and make sound decisions to resolve unexpected challenges that arose. As a commander, he was responsible for the daily affairs of the recruits of his platoon and his ability to make calculated decisions objectively helped him excel in this. On the ground, he excelled at command and control and was always alert, ready to execute contingency plans effectively if needed. ",
+         "Support Staff": "Soldier displayed a high level of competency in planning and by effectively overseeing and managing his given tasks. He possessed the foresight to anticipate potential challenges and come up with contingencies to tackle them. He always ensured that his tasks were completed seamlessly so that every training conduct could meet their objectives. Soldier was also a decisive individual who was composed under stressful situations, allowing him to make sound decisions to resolve unexpected challenges that arose, ensuring that conducts flowed smoothly. A cool-headed individual, he can be relied on to get complicated tasks done. In addition, Soldier displayed a high level of competency in event management by successfully coordinating with external stakeholders to meet the logistical requirements of his company throughout his service. He excelled at communication and was always on his feet, ready to execute contingency plans effectively to resolve unexpected challenges."
+      }
+   ],
+   "Developing People": [
+      {
+         "Label (DO NOT EDIT THIS)": "Development1",
+         "Commanders": "Serving as a positive role model, Soldier worked with his fellow commanders to ensure that the recruits under their charge were moulded into exemplary soldiers who were competent in their drills, disciplined and looked out for one another. Through patient feedback and coaching, Soldier took in in his stride to help those around him achieve their full potential.",
+         "Support Staff": "Serving as a positive role model, Soldier worked with his fellow support staff to ensure that new batches of storemen would be able to assimilate into their new roles. Through patient feedback and coaching, Soldier took in in his stride to help those around him achieve their full potential."
+      }
+   ],
+   "Developing Team ": [
+      {
+         "Label (DO NOT EDIT THIS)": "Development2",
+         "Commanders": "As a natural leader, Soldier has the innate ability to rally his commanders together and capitalise on their strengths, unifying them regardless of their differences to achieve a common objective. He went beyond his line of duty, building rapport with his peers to synergise their working styles and as a result create a well-oiled team.",
+         "Support Staff": "As a natural leader, Soldier has the innate ability to rally his store team together and capitalise on their strengths, unifying them regardless of their differences to complete their tasks. He went beyond his line of duty, building rapport with his peers to synergise their working styles and as a result create a well-oiled team."
+      }
+   ],
+   "Improving Organisation": [
+      {
+         "Label (DO NOT EDIT THIS)": "Development3",
+         "Commanders": "Soldier is proactive in recognising the need to transform and could see beyond the conventional way of doing things. He went beyond the pre-defined boundaries of his role to develop new methodologies to enhance his working processes. As a result, future generations of commanders would inherit a more sophisticated and mature system.",
+         "Support Staff": "Soldier is proactive in recognising the need to transform and could see beyond the conventional way of doing things. He went beyond the pre-defined boundaries of his role to develop new methodologies to enhance his working processes. As a result, future generations of commanders would inherit a more sophisticated and mature system."
+      }
+   ],
+   "Developing People + Developing Team": [
+      {
+         "Label (DO NOT EDIT THIS)": "Development4",
+         "Commanders": "A natural leader, he has the innate ability to rally his commanders together and capitalise on their strengths, unifying them regardless of their differences to achieve a common objective. Serving as a positive role model, Soldier worked with his fellow commanders to ensure that the recruits under their charge were moulded into exemplary soldiers who were competent in their drills, disciplined and looked out for one another. Through patient feedback and coaching, Soldier took in in his stride to help those around him achieve their full potential.",
+         "Support Staff": "A natural leader, he has the innate ability to rally his store team together and capitalise on their strengths, unifying them regardless of their differences to achieve a common objective. Serving as a positive role model, Soldier worked with his fellow support staff to ensure that new batches of storemen would be able to assimilate into their new roles. Through patient feedback and coaching, Soldier took in in his stride to help those around him achieve their full potential."
+      }
+   ],
+   "Developing People + Improving Organisation": [
+      {
+         "Label (DO NOT EDIT THIS)": "Development5",
+         "Commanders": "Serving as a positive role model, Soldier worked with his fellow commanders to ensure that the recruits under their charge were moulded into exemplary soldiers who were competent in their drills, disciplined and looked out for one another. Not only that, Soldier is proactive in recognising the need to transform and could see beyond the conventional way of doing things. He went beyond the pre-defined boundaries of his role to develop new methodologies to enhance his working processes. As a result, future generations of commanders would inherit a more sophisticated and mature system.",
+         "Support Staff": "Serving as a positive role model, Soldier worked with his fellow support staff to ensure that new batches of storemen would be able to assimilate into their new roles. Not only that, Soldier is proactive in recognising the need to transform and could see beyond the conventional way of doing things. He went beyond the pre-defined boundaries of his role to develop new methodologies to enhance his working processes. As a result, future generations of commanders would inherit a more sophisticated and mature system."
+      }
+   ],
+   "Developing Team + Improving Organisation": [
+      {
+         "Label (DO NOT EDIT THIS)": "Development6",
+         "Commanders": "A natural leader, Soldier has an innate ability to rally his commanders together and capitalise on their strengths, unifying them regardless of their differences to achieve a common objective. He went beyond his line of duty, building rapport with his peers to synergise their working styles and as a result create a well-oiled team. As a team, they recognised the need to transform and could see beyond the conventional way of doing things, hence coming up with more efficient systems to enhance working processes.",
+         "Support Staff": "A natural leader, Soldier has an innate ability to rally his store team together and capitalise on their strengths, unifying them regardless of their differences to complete their tasks. He went beyond his line of duty, building rapport with his peers to synergise their working styles and as a result create a well-oiled team. As a team, they recognised the need to transform and could see beyond the conventional way of doing things, hence coming up with more efficient systems to enhance working processes."
+      }
+   ],
+   "Developing People + Developing Team + Improving Organisation": [
+      {
+         "Label (DO NOT EDIT THIS)": "Development7",
+         "Commanders": "A natural leader, Soldier has the innate ability to rally his commanders together and capitalise on their strengths, unifying them regardless of their differences to achieve a common objective. He went beyond his line of duty, building rapport with his peers to synergise their working styles and as a result create a well-oiled team. His peers and subordinates would not hesitate to approach him for advice and emotional support. Serving as a positive role model, Soldier worked with his fellow commanders to ensure that the recruits under their charge were moulded into exemplary soldiers who were competent in their drills, disciplined and looked out for one another. He went beyond the pre-defined boundaries of his role to develop new methodologies to enhance his working processes. As a result, future generations of commanders would inherit a more sophisticated and mature system.",
+         "Support Staff": "A natural leader, Soldier has the innate ability to rally his store team together and capitalise on their strengths, unifying them regardless of their differences to complete their tasks. He went beyond his line of duty, building rapport with his peers to synergise their working styles and as a result create a well-oiled team. His peers and subordinates would not hesitate to approach him for advice and emotional support. Serving as a positive role model, Soldier worked with his fellowsupport staff to ensure that new batches of storemen would be able to assimilate into their new roles. He went beyond the pre-defined boundaries of his role to develop new methodologies to enhance his working processes. As a result, future generations of commanders would inherit a more sophisticated and mature system."
+      }
+   ],
+   "Self-Awareness": [
+      {
+         "Label (DO NOT EDIT THIS)": "Self1",
+         "Commanders": "Nevertheless, Soldier maintained humility and an open mind, and would never hesitate to ask those around him how he might improve. With the feedback from his peers, he constantly strived to improve himself.",
+         "Support Staff": "Nevertheless, Soldier maintained humility and an open mind, and would never hesitate to ask those around him how he might improve. With the feedback from his peers, he constantly strived to improve himself."
+      }
+   ],
+   "Self-Management": [
+      {
+         "Label (DO NOT EDIT THIS)": "Self2",
+         "Commanders": "Soldier was able to learn quickly from those around him, and often took the initiative to seek a deeper understanding of the subject matter on hand. He possessed the discipline to manage his workload, gaining the trust of his superiors to allow him to work independently.",
+         "Support Staff": "Soldier was able to learn quickly from those around him, and often took the initiative to seek a deeper understanding of the subject matter on hand. He possessed the discipline to manage his workload, gaining the trust of his superiors to allow him to work independently."
+      }
+   ],
+   "Personal Mastery": [
+      {
+         "Label (DO NOT EDIT THIS)": "Self3",
+         "Commanders": "When faced with adapting needs and circumstances, Soldier faced the challenges with optimism, encouraging those around him to do likewise.",
+         "Support Staff": "When faced with adapting needs and circumstances, Soldier faced the challenges with optimism, encouraging those around him to do likewise."
+      }
+   ],
+   "Self-Awareness + Self-Management": [
+      {
+         "Label (DO NOT EDIT THIS)": "Self4",
+         "Commanders": "Nevertheless, Soldier maintained humility and an open mind, and would never hesitate to ask those around him how he might improve. As a result, Soldier was able to learn quickly from those around him, and often took the initiative to seek a deeper understanding of the subject matter on hand.",
+         "Support Staff": "Nevertheless, Soldier maintained humility and an open mind, and would never hesitate to ask those around him how he might improve. As a result, Soldier was able to learn quickly from those around him, and often took the initiative to seek a deeper understanding of the subject matter on hand."
+      }
+   ],
+   "Self-Awareness + Personal Mastery": [
+      {
+         "Label (DO NOT EDIT THIS)": "Self5",
+         "Commanders": "When faced with adapting needs and circumstances, Soldier faced the challenges with optimism, encouraging those around him to do likewise. Nevertheless, Soldier maintained humility and an open mind, and would never hesitate to ask those around him how he might improve. With the feedback from his peers, he constantly strived to improve himself.",
+         "Support Staff": "When faced with adapting needs and circumstances, Soldier faced the challenges with optimism, encouraging those around him to do likewise. Nevertheless, Soldier maintained humility and an open mind, and would never hesitate to ask those around him how he might improve. With the feedback from his peers, he constantly strived to improve himself."
+      }
+   ],
+   "Self-Management + Personal Mastery": [
+      {
+         "Label (DO NOT EDIT THIS)": "Self6",
+         "Commanders": "Soldier was also able to learn quickly from those around him, and often took the initiative to seek a deeper understanding of the subject matter on hand. When faced with adapting needs and circumstances, Soldier faced the challenges with optimism, encouraging those around him to do likewise.",
+         "Support Staff": "Soldier was also able to learn quickly from those around him, and often took the initiative to seek a deeper understanding of the subject matter on hand. When faced with adapting needs and circumstances, Soldier faced the challenges with optimism, encouraging those around him to do likewise."
+      }
+   ],
+   "Self-Awareness + Self-Management + Personal Mastery": [
+      {
+         "Label (DO NOT EDIT THIS)": "Self7",
+         "Commanders": "When faced with adapting needs and circumstances, Soldier faced the challenges with optimism, encouraging those around him to do likewise. Nevertheless, Soldier maintained humility and an open mind, and would never hesitate to ask those around him how he might improve. As a result, Soldier was able to learn quickly from those around him, and often took initiative to seek a deeper understanding of the subject matter on hand. He possessed the discipline to manage his workload, gaining the trust of his superiors to allow him to work independently.",
+         "Support Staff": "When faced with adapting needs and circumstances, Soldier faced the challenges with optimism, encouraging those around him to do likewise. Nevertheless, Soldier maintained humility and an open mind, and would never hesitate to ask those around him how he might improve. As a result, Soldier was able to learn quickly from those around him, and often took initiative to seek a deeper understanding of the subject matter on hand. He possessed the discipline to manage his workload, gaining the trust of his superiors to allow him to work independently."
+      }
+   ],
+   "Critical Thinking ": [
+      {
+         "Label (DO NOT EDIT THIS)": "CT1",
+         "Commanders": "Soldier is able to think analytically and logically, drawing on past experience and situational awareness to systematically tackle challenging issues. His ability to think of the big picture sets him apart from his peers. He is able to understand the intent of his superiors and align his actions to meet said intent. ",
+         "Support Staff": "Soldier is able to think analytically and logically, drawing on past experience and situational awareness to systematically tackle challenging issues. His ability to think of the big picture sets him apart from his peers. He is able to understand the intent of his superiors and align his actions to meet said intent. "
+      }
+   ],
+   "Creative Thinking": [
+      {
+         "Label (DO NOT EDIT THIS)": "CT2",
+         "Commanders": "Soldier is able to think out of the box, coming up with innovative solutions to tackle challenging issues. A visionary, he is not afraid to approach tasks with unconventional methods. In doing so, he carved out new paths for future generations to follow.",
+         "Support Staff": "Soldier is able to think out of the box, coming up with innovative solutions to tackle challenging issues. A visionary, he is not afraid to approach tasks with unconventional methods. In doing so, he carved out new paths for future generations to follow."
+      }
+   ],
+   "Ethical Reasoning": [
+      {
+         "Label (DO NOT EDIT THIS)": "CT3",
+         "Commanders": "Soldier has a strong moral compass that guides him through situations where his ethics are challenged. He upholds the 8 Core Values of the SAF and imparts these values to those around him. He is steadfast in standing up for what is right.",
+         "Support Staff": "Soldier has a strong moral compass that guides him through situations where his ethics are challenged. He upholds the 8 Core Values of the SAF and imparts these values to those around him. He is steadfast in standing up for what is right."
+      }
+   ],
+   "Critical Thinking + Creative Thinking": [
+      {
+         "Label (DO NOT EDIT THIS)": "CT4",
+         "Commanders": "Soldier is able to think analytically and logically, drawing on past experience and situational awareness to systematically tackle challenging issues. He is able to think out of the box, coming up with innovative solutions to tackle challenging issues. These abilities that he possesses sets him apart from his peers.",
+         "Support Staff": "Soldier is able to think analytically and logically, drawing on past experience and situational awareness to systematically tackle challenging issues. He is able to think out of the box, coming up with innovative solutions to tackle challenging issues. These abilities that he possesses sets him apart from his peers."
+      }
+   ],
+   "Critical Thinking + Ethical Reasoning ": [
+      {
+         "Label (DO NOT EDIT THIS)": "CT5",
+         "Commanders": "Soldier is able to think analytically and logically, drawing on past experience and situational awareness to systematically tackle challenging issues. Despite this, he has a strong moral compass that guides him through situations where his ethics are challenged. He is steadfast in standing up for what is right.",
+         "Support Staff": "Soldier is able to think analytically and logically, drawing on past experience and situational awareness to systematically tackle challenging issues. Despite this, he has a strong moral compass that guides him through situations where his ethics are challenged. He is steadfast in standing up for what is right."
+      }
+   ],
+   "Creative Thinking + Ethical Reasoning ": [
+      {
+         "Label (DO NOT EDIT THIS)": "CT6",
+         "Commanders": "Soldier is able to think out of the box, coming up with innovative solutions to tackle challenging issues. A visionary, he is not afraid to approach tasks with unconventional methods. Despite this, Soldier has a strong moral compass that guides him through situations when his ethics are challenged. He is steadfast in standing up for what is right.",
+         "Support Staff": "Soldier is able to think out of the box, coming up with innovative solutions to tackle challenging issues. A visionary, he is not afraid to approach tasks with unconventional methods. Despite this, Soldier has a strong moral compass that guides him through situations when his ethics are challenged. He is steadfast in standing up for what is right."
+      }
+   ],
+   "Critical Thinking + Creative Thinking + Ethical Reasoning": [
+      {
+         "Label (DO NOT EDIT THIS)": "CT7",
+         "Commanders": "Soldier displays analytical and logical thinking capabilities, drawing on past experience and situational awareness to systematically tackle challenging issues. Soldier is also able to think out of the box, coming up with innovative solutions to tackle challenging issues. A visionary, he is not afraid to approach tasks with unconventional methods. Nonetheless, Soldier has a strong moral compass that guides him through situations when his ethics are challenged. He upholds the 8 Core Values of the SAF and imparts these values to those around him. He is steadfast in standing up for what is right.",
+         "Support Staff": "Soldier displays analytical and logical thinking capabilities, drawing on past experience and situational awareness to systematically tackle challenging issues. Soldier is also able to think out of the box, coming up with innovative solutions to tackle challenging issues. A visionary, he is not afraid to approach tasks with unconventional methods. Nonetheless, Soldier has a strong moral compass that guides him through situations when his ethics are challenged. He upholds the 8 Core Values of the SAF and imparts these values to those around him. He is steadfast in standing up for what is right."
+      }
+   ],
+   "VeryGood/Excellent": [
+      {
+         "Label (DO NOT EDIT THIS)": "Conclusion",
+         "Commanders": "To conclude, Soldier's service has left behind a legacy of excellence which will be continued for generations to come. With wisdom and maturity beyond his years, he would make an indispensable asset to any organisation. BMTC School II extends its appreciation to Soldier for his contributions and dedication to the SAF and wish him all the best in his future endeavours.  ",
+         "Support Staff": ""
+      }
+   ],
+   "Good": [
+      {
+         "Label (DO NOT EDIT THIS)": "SC1",
+         "Commanders": "Soldier performed well in Basic Military Training and displayed perseverance and leadership skills which led to his selection to undergo further training to become a section commander. He is a hardworking individual and exercised initiative in his assigned tasks. He works well under minimum supervision. ",
+         "Support Staff": ""
+      },
+      {
+         "Label (DO NOT EDIT THIS)": "CQ1",
+         "Commanders": "Soldier managed the administrative and logistical matters of the company. He accomplished every task assigned to him to the best of his ability. He was able to work well with his peers and commanders. All in all, he was a valuable asset to the company. ",
+         "Support Staff": ""
+      },
+      {
+         "Label (DO NOT EDIT THIS)": "O1",
+         "Commanders": "Soldier is a diligent and capable officer who gave his best in all tasks assigned to him. In particular, he worked hard to ensure that the training standards of the recruits, as well as their wellbeing, was taken care of. Earnest and tenacious, he did his best to foster a good working environment and ensure the company achieved success. His interpersonal skills and extensive military knowledge made him a valuable asset to the SAF. ",
+         "Support Staff": ""
+      },
+      {
+         "Label (DO NOT EDIT THIS)": "Others1",
+         "Commanders": "He ensured that any task given to him was done and carried out his duties professionally. He has good interpersonal skills which enable him to work well among his peers and commanders. All in all, he was a valuable asset to our unit. ",
+         "Support Staff": ""
+      }
+   ],
+   "Very Good": [
+      {
+         "Label (DO NOT EDIT THIS)": "SC2",
+         "Commanders": "Soldier performed well during his Basic Military training and displayed perseverance and leadership skills which lead to his selection to undergo commander training. He took the initiative to accomplish every task and led by example. He works well under pressure and minimum supervision. All in all, he was a valuable asset to SAF. ",
+         "Support Staff": ""
+      },
+      {
+         "Label (DO NOT EDIT THIS)": "CQ2",
+         "Commanders": "Soldier took charge of the administrative and logistical matters of the company. He accomplished every task assigned to him to the best of his ability and exemplifies the SAF core values in the way he carries himself. His work ethic earned him the respect of his peers and commanders, and has facilitated excellent teamwork in his field of work.",
+         "Support Staff": ""
+      },
+      {
+         "Label (DO NOT EDIT THIS)": "O2",
+         "Commanders": "Soldier was an inspirational and capable officer who led by example. He gave his best in all tasks assigned to him and was quick to solve any issues that arose. He was a hardworking officer who knew how to strike a balance between tough training and welfare to recruits. These traits, as well as his interpersonal skills and extensive military knowledge, made him a valuable asset to the SAF. ",
+         "Support Staff": ""
+      },
+      {
+         "Label (DO NOT EDIT THIS)": "Others2",
+         "Commanders": "He ensured that any task given to him was done correctly and carried out his duties professionally. He ensured any objectives given to him are met. His humility has earned him favour from his peers and commanders, and has facilitated excellent teamwork in his field of work. All in all, he was a valuable asset to our unit. ",
+         "Support Staff": ""
+      }
+   ],
+   "Outstanding": [
+      {
+         "Label (DO NOT EDIT THIS)": "SC3",
+         "Commanders": "Soldier is a hardworking and caring commander who led by example. He accomplished every task assigned to him to the best of his ability and always puts his recruits first. He was a discerning commander who knew how to strike a balance between tough training and welfare to his recruits. These traits, as well as his interpersonal skills and military knowledge, have made him a valuable asset to SAF. ",
+         "Support Staff": ""
+      },
+      {
+         "Label (DO NOT EDIT THIS)": "CQ3",
+         "Commanders": "Soldier took charge of the administrative and logistics of the company. He excels in his assigned task and goes beyond what he expected of him to ensure things are done correctly. His humility has earned him favour from his peers and commanders, and has facilitated excellent teamwork in his field of work. All in all, he will be a valuable asset to any organisation he joins in the future.  ",
+         "Support Staff": ""
+      },
+      {
+         "Label (DO NOT EDIT THIS)": "O3",
+         "Commanders": "Soldier is an competent and discerning leader. His ability to make decisions with thoughtfulness and open-mindedness largely benefitted the organisation. Being well appreciated by his peers for his kind heartedness, he is able to earn the respect from both his superiors and subordinates though his humble learning attitude. He is a cool-headed individual, capable of working well under pressure and minimal guidance from his superiors. He is indeed a positive and exemplary character that can fit into any organisation without much difficulty and would no doubt be an invaluable asset to any organisation. ",
+         "Support Staff": ""
+      },
+      {
+         "Label (DO NOT EDIT THIS)": "Others3",
+         "Commanders": "He ensured that any task given to him was done correctly and carried out his duties professional. He is proactive and capable to work under immense pressure and requires minimal guidance from his superiors; this allowed him to meet any objective that was given to him. He is indeed a positive and exemplary character that can fit into any organisation without much difficulty. ",
+         "Support Staff": ""
+      }
+   ],
+   "Introduction (CQ, SC & PC only)": [
+      {
+         "Label (DO NOT EDIT THIS)": "FP1",
+         "Commanders": "CPL rickit hadi  Served in the Singapore Armed Forces (SAF) as a Commanding Officer's Personal Assistant in Jaguar Company, BMTC School II. ",
+         "Support Staff": ""
+      }
+   ],
+   "Introduction (Any others)": [
+      {
+         "Label (DO NOT EDIT THIS)": "FP2",
+         "Commanders": "CPL rickit hadi  Served in the Singapore Armed Forces as a Commanding Officer's Personal Assistant in, BMTC School II. ",
+         "Support Staff": ""
+      }
+   ]
+}

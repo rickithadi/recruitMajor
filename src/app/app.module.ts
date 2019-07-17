@@ -9,6 +9,8 @@ import { AppComponent } from "./app.component";
 import { NgxEditorModule } from "ngx-editor";
 import { FormsModule } from "@angular/forms";
 import { HttpClientModule } from "@angular/common/http";
+// import {MatCheckboxModule} from '@angular/material/checkbox';
+
 
 
 
@@ -36,6 +38,7 @@ import { DraftComponent } from './draft/draft.component';
   declarations: [AppComponent, FormComponent, DraftComponent],
   imports: [
     BrowserModule,
+MatCheckboxModule,
     BrowserModule,
     MatGridListModule,
 MatIconModule,

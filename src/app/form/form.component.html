@@ -8,7 +8,7 @@
   <!-- <mat&#45;grid&#45;tile colspan="2"> -->
   <div class="row">
     <div class="col-md-12">
-      <div class="col-md-8">
+      <div class="col-md-6">
         <!-- <div fxFlex="151"  fxLayoutGap="10"> -->
         <!-- {{ diagnostic }} -->
         <mat-card>
@@ -29,31 +29,32 @@
               <mat-form-field>
                 <mat-label> Appointment</mat-label>
                 <mat-select name="appointments" [(ngModel)]="model.appointment">
-                  <mat-option *ngFor="let app of appointments" [value]="app.value">
+                  <mat-option
+                    *ngFor="let app of appointments"
+                    [value]="app.value"
+                  >
                     {{ app.label }}
                   </mat-option>
                 </mat-select>
               </mat-form-field>
-     <mat-form-field>
+              <mat-form-field>
                 <mat-label> Company</mat-label>
                 <mat-select name="companies" [(ngModel)]="model.company">
                   <mat-option *ngFor="let com of companies" [value]="com">
-                    {{ com}}
+                    {{ com }}
                   </mat-option>
                 </mat-select>
               </mat-form-field>
-
             </p>
             <p>
               <mat-form-field>
-           <mat-label> Rank</mat-label>
+                <mat-label> Rank</mat-label>
                 <mat-select name="ranks" [(ngModel)]="model.rank">
                   <mat-option *ngFor="let rank of ranks" [value]="rank">
-                    {{ rank.value}}
+                    {{ rank.value }}
                   </mat-option>
                 </mat-select>
-
-             </mat-form-field>
+              </mat-form-field>
 
               <mat-form-field>
                 <input
@@ -96,7 +97,7 @@
                 name="milestone"
               ></textarea>
             </mat-form-field>
-            <div class="float-right">
+            <div class="text-center">
               <button class="btn btn-primary" (click)="onSubmit(model)">
                 Submit
               </button>
@@ -104,56 +105,13 @@
           </form>
         </mat-card>
       </div>
-      <div class="col-md-4">
-        <mat-card >
-        <!-- <mat&#45;card class="text&#45;center"> -->
+      <div class="col-md-6">
+        <mat-card>
+          <!-- <mat&#45;card class="text&#45;center"> -->
           <h1>Appraisal</h1>
           <!-- {{diagnosticA}} -->
           <span style="color:grey"> Conduct: </span>
           <p>
-            <mat-radio-group [(ngModel)]="appraisal.performance">
-              <mat-radio-button value="1">1</mat-radio-button>
-              <mat-radio-button value="2">2</mat-radio-button>
-              <mat-radio-button value="3">3</mat-radio-button>
-              <mat-radio-button value="4">4</mat-radio-button>
-              <mat-radio-button value="5">5</mat-radio-button>
-            </mat-radio-group>
-          </p>
-   <span style="color:grey"> Performance: </span>
-          <p>
-            <mat-radio-group [(ngModel)]="appraisal.performance">
-              <mat-radio-button value="1">1</mat-radio-button>
-              <mat-radio-button value="2">2</mat-radio-button>
-              <mat-radio-button value="3">3</mat-radio-button>
-              <mat-radio-button value="4">4</mat-radio-button>
-              <mat-radio-button value="5">5</mat-radio-button>
-            </mat-radio-group>
-          </p>
-   <span style="color:grey"> Conceptual Thinking: </span>
-          <p>
-            <mat-radio-group [(ngModel)]="appraisal.performance">
-              <mat-radio-button value="1">1</mat-radio-button>
-              <mat-radio-button value="2">2</mat-radio-button>
-              <mat-radio-button value="3">3</mat-radio-button>
-              <mat-radio-button value="4">4</mat-radio-button>
-              <mat-radio-button value="5">5</mat-radio-button>
-            </mat-radio-group>
-          </p>
-
-   <span style="color:grey"> Social: </span>
-          <p>
-            <mat-radio-group [(ngModel)]="appraisal.performance">
-              <mat-radio-button value="1">1</mat-radio-button>
-              <mat-radio-button value="2">2</mat-radio-button>
-              <mat-radio-button value="3">3</mat-radio-button>
-              <mat-radio-button value="4">4</mat-radio-button>
-              <mat-radio-button value="5">5</mat-radio-button>
-            </mat-radio-group>
-          </p>
-
-
-          <span style="color:grey"> Mission: </span>
-          <p>
             <mat-radio-group [(ngModel)]="appraisal.conduct">
               <mat-radio-button value="1">1</mat-radio-button>
               <mat-radio-button value="2">2</mat-radio-button>
@@ -162,9 +120,9 @@
               <mat-radio-button value="5">5</mat-radio-button>
             </mat-radio-group>
           </p>
-      <span style="color:grey"> Development: </span>
+          <span style="color:grey"> Performance: </span>
           <p>
-            <mat-radio-group [(ngModel)]="appraisal.conduct">
+            <mat-radio-group [(ngModel)]="appraisal.performance">
               <mat-radio-button value="1">1</mat-radio-button>
               <mat-radio-button value="2">2</mat-radio-button>
               <mat-radio-button value="3">3</mat-radio-button>
@@ -172,20 +130,99 @@
               <mat-radio-button value="5">5</mat-radio-button>
             </mat-radio-group>
           </p>
-       <span style="color:grey"> Self: </span>
-          <p>
-            <mat-radio-group [(ngModel)]="appraisal.conduct">
-              <mat-radio-button value="1">1</mat-radio-button>
-              <mat-radio-button value="2">2</mat-radio-button>
-              <mat-radio-button value="3">3</mat-radio-button>
-              <mat-radio-button value="4">4</mat-radio-button>
-              <mat-radio-button value="5">5</mat-radio-button>
-            </mat-radio-group>
-          </p>
+          <span style="color:grey"> Conceptual Thinking: </span>
+          <section class="example-section">
+            <mat-checkbox
+              class="example-margin"
+              [(ngModel)]="appraisal.thinking.critical"
+              >Critical Thinking</mat-checkbox
+            >
+            <mat-checkbox
+              class="example-margin"
+              [(ngModel)]="appraisal.thinking.creative"
+              >Creative Thinking</mat-checkbox
+            >
+            <mat-checkbox
+              class="example-margin"
+              [(ngModel)]="appraisal.thinking.ethical"
+              >Ethical Reasoning</mat-checkbox
+            >
+          </section>
+          <span style="color:grey"> Social: </span>
+          <!-- <p> -->
+          <section class="example-section">
+            <mat-checkbox
+              class="example-margin"
+              [(ngModel)]="appraisal.social.communicating"
+              >Communicating to influence</mat-checkbox
+            >
+            <mat-checkbox
+              class="example-margin"
+              [(ngModel)]="appraisal.social.interpersonal"
+              >Interpersonal Effectiveness</mat-checkbox
+            >
+          </section>
+          <span style="color:grey"> Mission Competency: </span>
+          <section class="example-section">
+            <mat-checkbox
+              class="example-margin"
+              [(ngModel)]="appraisal.mission.planning"
+              >Planning</mat-checkbox
+            >
+            <mat-checkbox
+              class="example-margin"
+              [(ngModel)]="appraisal.mission.decision"
+              >Decision Making</mat-checkbox
+            >
+            <mat-checkbox
+              class="example-margin"
+              [(ngModel)]="appraisal.mission.execution"
+              >Execution</mat-checkbox
+            >
+          </section>
 
+          <span style="color:grey"> Developmental Competency: </span>
+          <section class="example-section">
+            <mat-checkbox
+              class="example-margin"
+              [(ngModel)]="appraisal.development.people"
+              >Developing People</mat-checkbox
+            >
+            <mat-checkbox
+              class="example-margin"
+              [(ngModel)]="appraisal.development.team"
+              >Developing Team</mat-checkbox
+            >
+            <mat-checkbox
+              class="example-margin"
+              [(ngModel)]="appraisal.development.organisation"
+              >Improve Organisation</mat-checkbox
+            >
+          </section>
+          <span style="color:grey"> Self Competency: </span>
+          <section class="example-section">
+            <mat-checkbox
+              class="example-margin"
+              [(ngModel)]="appraisal.self.awareness"
+              >Self Awareness</mat-checkbox
+            >
+            <mat-checkbox
+              class="example-margin"
+              [(ngModel)]="appraisal.self.management"
+              >Self Management</mat-checkbox
+            >
+            <mat-checkbox
+              class="example-margin"
+              [(ngModel)]="appraisal.self.mastery"
+              >Personal Mastery</mat-checkbox
+            >
+          </section>
 
-          <div class="float-right">
-            <button class="btn btn-primary" (click)="onAppraisalSubmit(appraisal)">
+          <div class="text-center">
+            <button
+              class="btn btn-primary"
+              (click)="onAppraisalSubmit(appraisal)"
+            >
               Submit
             </button>
           </div>

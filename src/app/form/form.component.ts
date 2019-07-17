@@ -24,7 +24,10 @@ export class FormComponent implements OnInit {
     { value: "Admin Specialist	", label: "Admin Specialist" },
     { value: "Finance specialist", label: "Finance Specialist" },
     { value: "Logistics specialist", label: "Logistics specialist" },
-    {value: "Operations Room Specialist",  label: "Operations Room Specialist"    },
+    {
+      value: "Operations Room Specialist",
+      label: "Operations Room Specialist"
+    },
     { value: "Commanding Officer's Personal Assistant", label: "COPA" },
     { value: "Platoon Commander", label: "PC" },
     { value: "Admin Officer", label: "	AO" },
@@ -62,7 +65,7 @@ export class FormComponent implements OnInit {
     { value: "LTA", comd: true }
   ];
   model = new Hero("", "", "", "", "");
-  appraisal = new Service(0, 0);
+  appraisal = new Service(0, 0, {}, {}, {}, {}, {});
 
   submitted = false;
 
@@ -89,6 +92,6 @@ export class FormComponent implements OnInit {
   }
   onAppraisalSubmit(app) {
     this.ss.changeApp(app);
-    this.appraisal = new Service(0, 0);
+    this.appraisal = new Service(0, 0, {}, {}, {}, {}, {});
   }
 }
