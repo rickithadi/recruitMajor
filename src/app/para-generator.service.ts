@@ -13,17 +13,10 @@ export class ParaGeneratorService {
 
   generate(soldier, count?) {
     //check which para chekc with quan!!
-    let response = this.firstPara(
-      soldier.rank,
-      soldier.vocation,
-      soldier.name,
-      soldier.nric,
-      count
-    );
-    return response;
+   return 'sabar';
   }
-  firstPara(rank, vocation, name, nric, count?) {
-    if (vocation.comd) {
+  firstPara(rank,  name, nric, count?) {
+    if (rank.comd) {
       //add json fetch here
       this.hold = this.hold.concat(" fella is a comd");
     } else {
