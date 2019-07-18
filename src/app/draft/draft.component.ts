@@ -60,7 +60,7 @@ export class DraftComponent implements OnInit {
     this.ss.currentMessage.subscribe(hero => (this.hero = hero));
     this.ss.currentApp.subscribe(app => (this.app = app));
     this.draft = this.p.generate(this.hero, this.localCount);
-    this.swapped = this.swap(this.draft.key, this.draft.text, this.draft.rep);
+    // this.swapped = this.swap(this.draft.key, this.draft.text, this.draft.rep);
   }
   swap(keywords, text, replacement) {
     let res = "";
